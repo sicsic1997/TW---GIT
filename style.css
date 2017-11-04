@@ -28,6 +28,7 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	min-width: 900px;
+	z-index: 1;
 }
 
 #upper_bar {
@@ -46,7 +47,10 @@ body {
 #menu-bar {
 	
 	height: 50px;
-	position: relative;
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	z-index: 2;
 }
 
 #menu-logo {
@@ -80,6 +84,7 @@ body {
 	right: 2%;
 	top: 50%;
 	transform: translateY(-50%);
+
 }
 
 .button {
@@ -91,4 +96,102 @@ body {
 
 .button:hover {
 	border-bottom: 1px solid #3f5782;
+}
+
+#product-categories {
+	margin-top: 60px;
+	position: relative;
+	height: 600px;
+	min-width: 1100px;
+}
+
+#forHim {
+	background-image: url("men.png");
+	background-size: cover;
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	position: absolute;
+	left: 2%;
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+
+#forHim:hover {
+	opacity: 1;
+}
+
+#forHer {
+	background-image: url("women.png");
+	background-size: cover;
+	width: 500px;
+	height: 500px;
+	display: inline-block;
+	position: absolute;
+	right: 2%;
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+
+#forHer:hover {
+	opacity: 1;
+}
+
+#shopNowHim {
+	position: absolute;
+	height: 60px;
+	width: 200px;
+	bottom: 6%;
+	left: 8%;
+	text-align: left;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-left: 1%;
+	font-weight: 600;
+}
+
+#shopNowHer {
+	position: absolute;
+	height: 60px;
+	width: 200px;
+	bottom: 6%;
+	right: 8%;
+	text-align: right;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-right: 1%;
+	font-weight: 600;
+}
+
+.shop-button {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 14px;
+	padding: 2px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border: 2px solid white;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.shop-button:hover {
+	background-color: white;
+	color: black;
+}
+
+footer {
+	background-color: #000d1a;
+	height: 25px;
+	color: #FFFFFF;
+	padding-top: 6px;
+	text-transform: uppercase;
+	text-align: right;
+	padding-right: 8%;
+	font-size: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 2px;
 }
