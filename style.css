@@ -31,7 +31,7 @@ body {
 	z-index: 1;
 }
 
-#upper_bar {
+#upper-bar {
 	background-color: #003366;
 	height: 25px;
 	color: #FFFFFF;
@@ -105,7 +105,7 @@ body {
 	min-width: 1100px;
 }
 
-#forHim {
+#for-him {
 	background-image: url("men.png");
 	background-size: cover;
 	width: 520px;
@@ -117,11 +117,11 @@ body {
 	transition: opacity 0.5s;
 }
 
-#forHim:hover {
+#for-him:hover {
 	opacity: 1;
 }
 
-#forHer {
+#for-her {
 	background-image: url("women.png");
 	background-size: cover;
 	width: 520px;
@@ -133,11 +133,11 @@ body {
 	transition: opacity 0.5s;
 }
 
-#forHer:hover {
+#for-her:hover {
 	opacity: 1;
 }
 
-#shopNowHim {
+#shop-now-him {
 	position: absolute;
 	height: 60px;
 	width: 200px;
@@ -152,7 +152,7 @@ body {
 	font-weight: 600;
 }
 
-#shopNowHer {
+#shop-now-her {
 	position: absolute;
 	height: 60px;
 	width: 200px;
@@ -204,7 +204,7 @@ footer {
 	min-width: 1100px;
 }
 
-#firstPromotion {
+#first-promotion {
 	background-image: url("watch.jpg");
 	background-size: cover;
 	background-position: center;
@@ -218,7 +218,7 @@ footer {
 }
 
 
-#seePromotion {
+#see-promotion {
 	position: absolute;
 	height: 60px;
 	width: 250px;
@@ -247,4 +247,25 @@ footer {
 .shop-button-black:hover {
 	background-color: black;
 	color: white;
+}
+
+
+
+#left-footer {
+	display: inline-block;
+	position: absolute;
+	left: 20px;
+	padding: 2px;
+	color:white;
+}
+
+#left-footer:hover {
+	text-decoration: underline;
+}
+
+#right-footer {
+	display: inline block;
+	position: absolute;
+	right: 20px;
+	padding: 2px;
 }
