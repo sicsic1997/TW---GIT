@@ -1,0 +1,94 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+#content {
+	width: 85%;
+	margin: 0 auto;
+	text-align: center;
+	min-width: 900px;
+}
+
+#upper_bar {
+	background-color: #003366;
+	height: 25px;
+	color: #FFFFFF;
+	padding-top: 6px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 13px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+
+#menu-bar {
+	
+	height: 50px;
+	position: relative;
+}
+
+#menu-logo {
+	height: 40px;
+	padding-top: 6px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#menu-buttons-left {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #3f5782;
+	letter-spacing: 2px;
+	font-size: 12px;
+	position: absolute;
+	left: 2%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#menu-buttons-right {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #3f5782;
+	letter-spacing: 2px;
+	font-size: 12px;
+	position: absolute;
+	right: 2%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.button {
+	display: inline-block;
+	margin-right: 3px;
+	margin-left: 3px;
+	padding-bottom: 2px;
+}
+
+.button:hover {
+	border-bottom: 1px solid #3f5782;
+}
