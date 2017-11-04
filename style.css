@@ -27,7 +27,7 @@ body {
 	width: 85%;
 	margin: 0 auto;
 	text-align: center;
-	min-width: 900px;
+	min-width: 1100px;
 	z-index: 1;
 }
 
@@ -101,14 +101,14 @@ body {
 #product-categories {
 	margin-top: 60px;
 	position: relative;
-	height: 600px;
+	height: 550px;
 	min-width: 1100px;
 }
 
 #forHim {
 	background-image: url("men.png");
 	background-size: cover;
-	width: 500px;
+	width: 520px;
 	height: 500px;
 	display: inline-block;
 	position: absolute;
@@ -124,7 +124,7 @@ body {
 #forHer {
 	background-image: url("women.png");
 	background-size: cover;
-	width: 500px;
+	width: 520px;
 	height: 500px;
 	display: inline-block;
 	position: absolute;
@@ -190,8 +190,61 @@ footer {
 	padding-top: 6px;
 	text-transform: uppercase;
 	text-align: right;
-	padding-right: 8%;
+	padding-right: 100px;
 	font-size: 10px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	letter-spacing: 2px;
+	position: relative;
+	bottom: 0px;
+}
+
+#promotions {
+	margin-top: 20px;
+	position: relative;
+	min-width: 1100px;
+}
+
+#firstPromotion {
+	background-image: url("watch.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 1100px;
+	margin-left: 2%;
+	height: 500px;
+	opacity: 0.8;
+	transition: opacity 0.5s;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+
+#seePromotion {
+	position: absolute;
+	height: 60px;
+	width: 250px;
+	bottom: 6%;
+	right: 3%;
+	text-align: right;
+	color: black;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	letter-spacing: 2px;
+	padding-right: 1%;
+	font-weight: 600;
+}
+
+.shop-button-black {
+	display: inline-block;
+	margin-top: 10px;
+	font-size: 14px;
+	padding: 2px;
+	padding-left: 7px;
+	padding-right: 7px;
+	border: 2px solid black;
+	transition: background-color 0.5s, color 0.5s;
+}
+
+.shop-button-black:hover {
+	background-color: black;
+	color: white;
 }
