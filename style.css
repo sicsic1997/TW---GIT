@@ -21,6 +21,7 @@ time, mark, audio, video {
 
 body {
 	background-color: #FFFFFF;
+	overflow-y: scroll;
 }
 
 #content {
@@ -29,6 +30,7 @@ body {
 	text-align: center;
 	min-width: 1100px;
 	z-index: 1;
+	min-height: 36.85em;
 }
 
 #upper-bar {
@@ -92,10 +94,18 @@ body {
 	margin-right: 3px;
 	margin-left: 3px;
 	padding-bottom: 2px;
+	color: #003366;	
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .button:hover {
 	border-bottom: 1px solid #3f5782;
+}
+
+.emphasise {
+	background-color: #3f5782;
+	color: white;
 }
 
 #product-categories {
@@ -268,4 +278,140 @@ footer {
 	position: absolute;
 	right: 20px;
 	padding: 2px;
+}
+
+#shops {
+	position: relative;
+	margin-top: 60px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #00264d;
+	height: 500px;
+}
+
+#shop-list {
+	position: absolute;
+	left: 3%;
+	text-align: right;
+	width: 510px;
+	height: 500px;
+	color: #00264d;
+}
+
+#shop-list  > h1{
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+#shops  > a{
+	color: #000d1a;
+}
+
+li {
+	margin-left: 17px;
+}
+
+#shop-map {
+	position: absolute;
+	right: 3%;
+	text-align: center;
+	width: 510px;
+	height: 500px;
+}
+
+iframe {
+}
+
+ul {
+  list-style-type: none;
+}
+
+.color-match {
+	color: #00264d;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+#additional-info {
+	position: relative;
+	height: 350px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#info-table {
+	text-align: left;
+	margin-top: 20px;
+	table-layout: fixed;
+	width: 100%;
+}
+
+
+#info-table > tr, th, td {
+	padding: 7px;
+	background-color: #d9d9d9;
+	color: #00264d;
+	border: solid 2px white;
+}
+
+#info-table > tr, td:nth-child(2n+1) {
+	
+	color: #00264d;
+	
+}
+
+#info-table > tr, td:nth-child(2n) {
+	
+	color: #000d1a;
+	
+}
+
+.header {
+	background-color: #00264d;
+	color: white;
+}
+
+.bold {
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+#presentation {
+	position: relative;
+	height: 350px;
+}
+
+#presentation-video {
+	height: 350px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #00264d;
+	position: absolute;
+	left: 7%;
+}
+
+#presentation-image {
+	height: 350px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #00264d;
+	position: absolute;
+	right: 7%;
+}
+
+#founder-img {
+	margin-top: 12px;
+	width: 400px;
+	height: 240px;
+}
+
+#founder-img {
+	opacity: 0.8;
+	transition: opacity 0.5s;
+}
+
+#founder-img:hover {
+	opacity: 1;
 }
