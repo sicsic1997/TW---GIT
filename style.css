@@ -415,3 +415,19 @@ a:visited {
 #founder-img:hover {
 	opacity: 1;
 }
+
+@keyframes example {
+    0%   {color:#00264d;}
+    25%  {color: #000d1a;}
+    50%  {color: #004080;}
+	75%  {color: #003366;}
+    100% {color: #000d1a;}
+}
+
+.animated-title:hover{
+	animation-name: example;
+    animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease;
+	transition: color 0.5s;
+}
