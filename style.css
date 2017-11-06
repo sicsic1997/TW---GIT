@@ -102,6 +102,7 @@ body {
 
 .button:hover {
 	border-bottom: 1px solid #3f5782;
+	cursor: pointer;
 }
 
 .emphasise {
@@ -119,7 +120,7 @@ body {
 #for-him {
 	background-image: url("men.png");
 	background-size: cover;
-	width: 520px;
+	width: 45%;
 	height: 500px;
 	display: inline-block;
 	position: absolute;
@@ -135,7 +136,7 @@ body {
 #for-her {
 	background-image: url("women.png");
 	background-size: cover;
-	width: 520px;
+	width: 45%;
 	height: 500px;
 	display: inline-block;
 	position: absolute;
@@ -186,12 +187,14 @@ body {
 	padding-left: 7px;
 	padding-right: 7px;
 	border: 2px solid white;
-	transition: background-color 0.5s, color 0.5s;
+	transition: background-color 0.5s, color 0.5s, transform 0.4s;
 }
 
 .shop-button:hover {
 	background-color: white;
 	color: black;
+	transform: scale(1.1, 1.1);
+	cursor: pointer;
 }
 
 footer {
@@ -219,7 +222,7 @@ footer {
 	background-image: url("watch.jpg");
 	background-size: cover;
 	background-position: center;
-	width: 1100px;
+	width: 96%;
 	margin-left: 2%;
 	height: 500px;
 	opacity: 0.8;
@@ -258,6 +261,7 @@ footer {
 .shop-button-black:hover {
 	background-color: black;
 	color: white;
+	cursor: pointer;
 }
 
 
@@ -328,6 +332,11 @@ ul {
 
 .color-match {
 	color: #00264d;
+	transform: scale(1.5, 1.5);
+}
+
+.color-match:hover {
+	opacity: 0.7;
 }
 
 a {
